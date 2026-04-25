@@ -1,0 +1,273 @@
+import { useState, useEffect } from "react";
+import {
+  LineChart, Line, BarChart, Bar,
+  XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid
+} from "recharts";
+
+// Carga un JSON de /public/data/ (en GitHub Pages son archivos estáticos)
+async function loadData(file) {
+  const res = await fetch(`${import.meta.env.BASE_URL}data/${file}`);
+  if (!res.ok) return null;
+  return res.json();
+}
+
+function StatCard({ label, value, unit, color = "#1D9E75" }) {
+  return (
+    <div style={{
+      background: "var(--card-bg)",
+      border: "1px solid var(--border)",
+      borderRadius: 12,
+      padding: "20px 24px",
+      display: "flex",
+      flexDirection: "column",
+      gap: 4,
+    }}>
+      <span style={{ fontSize: 12, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+        {label}
+      </span>
+      <span style={{ fontSize: 32, fontWeight: 600, color }}>
+        {value ?? "—"} <span style={{ fontSize: 16, fontWeight: 400, color: "var(--muted)" }}>{unit}</span>
+      </span>
+    </div>
+  );
+}
+
+function Section({ title, children }) {
+  return (
+    <section style={{ marginBottom: 40 }}>
+      <h2 style={{ fontSize: 18, fontWeight: 500, marginBottom: 16, color: "var(--text)" }}>{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+function ActivityRow({ activity }) {
+  const km = activity.distance ? (activity.distance / 1000).toFixed(2) : "—";
+  const mins = activity.duration ? Math.round(activity.duration / 60) : "—";
+  const type = activity.activityType?.typeKey ?? "otro";
+  return (
+    <div style={{
+      display: "grid",
+      gridTemplateColumns: "1fr 100px 80px 80px",
+      gap: 8,
+      padding: "10px 0",
+      borderBottom: "1px solid var(--border)",
+      fontSize: 14,
+      color: "var(--text)",
+    }}>
+      <span style={{ fontWeight: 500 }}>{activity.activityName ?? "—"}</span>
+      <span style={{ color: "var(--muted)" }}>{type}</span>
+      <span>{km} km</span>
+      <span style={{ color: "var(--muted)" }}>{mins} min</span>
+    </div>
+  );
+}
+
+export default function App() {
+  const [data, setData] = useState({});
+  const [tab, setTab] = useState("overview");
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchAll() {
+      const [meta, activities, sleep, hr, steps, weight, vo2, hrv, readiness, status] = await Promise.all([
+        loadData("meta.json"),
+        loadData("activities.json"),
+        loadData("sleep_today.json"),
+        loadData("heart_rate_today.json"),
+        loadData("steps_today.json"),
+        loadData("weight.json"),
+        loadData("vo2max.json"),
+        loadData("hrv.json"),
+        loadData("training_readiness.json"),
+        loadData("training_status.json"),
+      ]);
+      setData({ meta, activities, sleep, hr, steps, weight, vo2, hrv, readiness, status });
+      setLoading(false);
+    }
+    fetchAll();
+  }, []);
+
+  const tabs = [
+    { id: "overview", label: "Resumen" },
+    { id: "activities", label: "Actividades" },
+    { id: "health", label: "Salud" },
+    { id: "training", label: "Entrenamiento" },
+    { id: "weight", label: "Peso" },
+  ];
+
+  // Preparar datos para gráficas de actividades
+  const activityChartData = (data.activities ?? [])
+    .slice(0, 20)
+    .reverse()
+    .map(a => ({
+      name: (a.activityName ?? "").slice(0, 10),
+      km: a.distance ? +(a.distance / 1000).toFixed(2) : 0,
+    }));
+
+  // Preparar datos de peso
+  const weightChartData = (data.weight ?? [])
+    .slice(-30)
+    .map(w => ({
+      date: w.date?.slice(5) ?? "",
+      kg: w.weight ?? null,
+    }))
+    .filter(w => w.kg);
+
+  return (
+    <div style={{ minHeight: "100vh", background: "var(--bg)", color: "var(--text)", fontFamily: "system-ui, sans-serif" }}>
+      <style>{`
+        :root {
+          --bg: #0f1117;
+          --card-bg: #1a1d27;
+          --border: #2a2d3a;
+          --text: #e8eaf0;
+          --muted: #8b8fa8;
+          --accent: #1D9E75;
+        }
+        @media (prefers-color-scheme: light) {
+          :root {
+            --bg: #f5f6fa;
+            --card-bg: #ffffff;
+            --border: #e2e4ed;
+            --text: #1a1d27;
+            --muted: #6b7080;
+          }
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: var(--bg); }
+      `}</style>
+
+      {/* Header */}
+      <header style={{ borderBottom: "1px solid var(--border)", padding: "20px 32px", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div>
+          <h1 style={{ fontSize: 22, fontWeight: 600, color: "var(--text)" }}>Garmin Dashboard</h1>
+          {data.meta && (
+            <p style={{ fontSize: 12, color: "var(--muted)", marginTop: 2 }}>
+              Actualizado: {new Date(data.meta.exported_at).toLocaleString("es-CO")} · últimos {data.meta.period_days} días
+            </p>
+          )}
+        </div>
+      </header>
+
+      {/* Tabs */}
+      <nav style={{ borderBottom: "1px solid var(--border)", padding: "0 32px", display: "flex", gap: 4 }}>
+        {tabs.map(t => (
+          <button
+            key={t.id}
+            onClick={() => setTab(t.id)}
+            style={{
+              padding: "12px 16px",
+              fontSize: 14,
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              color: tab === t.id ? "var(--accent)" : "var(--muted)",
+              borderBottom: tab === t.id ? "2px solid var(--accent)" : "2px solid transparent",
+              fontWeight: tab === t.id ? 500 : 400,
+              transition: "color 0.15s",
+            }}
+          >
+            {t.label}
+          </button>
+        ))}
+      </nav>
+
+      {/* Content */}
+      <main style={{ padding: "32px", maxWidth: 1100, margin: "0 auto" }}>
+        {loading && <p style={{ color: "var(--muted)" }}>Cargando datos…</p>}
+
+        {!loading && tab === "overview" && (
+          <>
+            <Section title="Hoy">
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: 16 }}>
+                <StatCard label="Pasos" value={data.steps?.totalSteps?.toLocaleString()} unit="pasos" />
+                <StatCard label="FC en reposo" value={data.hr?.restingHeartRate} unit="bpm" color="#E24B4A" />
+                <StatCard label="Readiness" value={data.readiness?.score} unit="/ 100" color="#378ADD" />
+                <StatCard label="VO₂max" value={data.vo2?.vo2MaxValue?.toFixed(1)} unit="mL/kg/min" color="#639922" />
+                <StatCard label="HRV" value={data.hrv?.lastNight?.rmssd?.toFixed(0)} unit="ms" color="#7F77DD" />
+                <StatCard label="Sueño" value={data.sleep?.sleepTimeSeconds ? Math.round(data.sleep.sleepTimeSeconds / 3600 * 10) / 10 : null} unit="h" color="#D4537E" />
+              </div>
+            </Section>
+
+            <Section title="Actividades recientes">
+              <div style={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 12, padding: 20 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 100px 80px 80px", gap: 8, padding: "0 0 8px", fontSize: 11, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                  <span>Actividad</span><span>Tipo</span><span>Distancia</span><span>Duración</span>
+                </div>
+                {(data.activities ?? []).slice(0, 5).map((a, i) => <ActivityRow key={i} activity={a} />)}
+              </div>
+            </Section>
+          </>
+        )}
+
+        {!loading && tab === "activities" && (
+          <>
+            <Section title="Distancia por actividad (últimas 20)">
+              <div style={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 12, padding: 20 }}>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={activityChartData}>
+                    <CartesianGrid stroke="var(--border)" vertical={false} />
+                    <XAxis dataKey="name" tick={{ fontSize: 11, fill: "var(--muted)" }} />
+                    <YAxis tick={{ fontSize: 11, fill: "var(--muted)" }} unit=" km" />
+                    <Tooltip contentStyle={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 13 }} />
+                    <Bar dataKey="km" fill="var(--accent)" radius={[4, 4, 0, 0]} />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </Section>
+
+            <Section title="Todas las actividades">
+              <div style={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 12, padding: 20 }}>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 100px 80px 80px", gap: 8, padding: "0 0 8px", fontSize: 11, color: "var(--muted)", textTransform: "uppercase", letterSpacing: "0.05em" }}>
+                  <span>Actividad</span><span>Tipo</span><span>Distancia</span><span>Duración</span>
+                </div>
+                {(data.activities ?? []).map((a, i) => <ActivityRow key={i} activity={a} />)}
+              </div>
+            </Section>
+          </>
+        )}
+
+        {!loading && tab === "health" && (
+          <Section title="Salud hoy">
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 16 }}>
+              <StatCard label="Pasos" value={data.steps?.totalSteps?.toLocaleString()} unit="pasos" />
+              <StatCard label="FC en reposo" value={data.hr?.restingHeartRate} unit="bpm" color="#E24B4A" />
+              <StatCard label="Sueño total" value={data.sleep?.sleepTimeSeconds ? Math.round(data.sleep.sleepTimeSeconds / 3600 * 10) / 10 : null} unit="h" color="#D4537E" />
+              <StatCard label="Sueño profundo" value={data.sleep?.deepSleepSeconds ? Math.round(data.sleep.deepSleepSeconds / 60) : null} unit="min" color="#7F77DD" />
+              <StatCard label="Estrés promedio" value={data.stress?.averageStressLevel} unit="/ 100" color="#EF9F27" />
+              <StatCard label="Body battery inicio" value={data.bodyBattery?.startTimestampGMT ? null : null} unit="" />
+            </div>
+          </Section>
+        )}
+
+        {!loading && tab === "training" && (
+          <Section title="Estado de entrenamiento">
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: 16 }}>
+              <StatCard label="Readiness" value={data.readiness?.score} unit="/ 100" color="#378ADD" />
+              <StatCard label="VO₂max" value={data.vo2?.vo2MaxValue?.toFixed(1)} unit="mL/kg/min" color="#639922" />
+              <StatCard label="HRV anoche" value={data.hrv?.lastNight?.rmssd?.toFixed(0)} unit="ms" color="#7F77DD" />
+              <StatCard label="Estado" value={data.status?.trainingStatus} unit="" color="#1D9E75" />
+            </div>
+          </Section>
+        )}
+
+        {!loading && tab === "weight" && (
+          <Section title="Peso (últimos 30 días)">
+            <div style={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 12, padding: 20 }}>
+              <ResponsiveContainer width="100%" height={280}>
+                <LineChart data={weightChartData}>
+                  <CartesianGrid stroke="var(--border)" vertical={false} />
+                  <XAxis dataKey="date" tick={{ fontSize: 11, fill: "var(--muted)" }} />
+                  <YAxis tick={{ fontSize: 11, fill: "var(--muted)" }} unit=" kg" domain={["auto", "auto"]} />
+                  <Tooltip contentStyle={{ background: "var(--card-bg)", border: "1px solid var(--border)", borderRadius: 8, fontSize: 13 }} />
+                  <Line dataKey="kg" stroke="#7F77DD" strokeWidth={2} dot={{ r: 4, fill: "#7F77DD" }} connectNulls />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+          </Section>
+        )}
+      </main>
+    </div>
+  );
+}
