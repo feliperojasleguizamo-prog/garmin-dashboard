@@ -1,0 +1,120 @@
+{
+  "steps": {
+    "today": 8922,
+    "delta": 0,
+    "spark": [
+      8922,
+      5412,
+      4858,
+      272,
+      4816
+    ]
+  },
+  "heart": {
+    "resting": 146,
+    "delta": 0,
+    "spark": [
+      146,
+      148,
+      148,
+      146,
+      149
+    ]
+  },
+  "sleep": {
+    "hours": 0,
+    "delta": 0,
+    "spark": []
+  },
+  "bodyBattery": {
+    "current": 0,
+    "delta": 0,
+    "spark": []
+  },
+  "calories": {
+    "today": 653,
+    "delta": 0,
+    "spark": [
+      653,
+      377,
+      342,
+      126,
+      350
+    ]
+  },
+  "vo2max": {
+    "current": 38,
+    "delta": 0,
+    "spark": []
+  },
+  "weight": {
+    "current": 102000,
+    "spark": [
+      97800,
+      98000,
+      102000
+    ]
+  },
+  "activities": [
+    {
+      "name": "Sabaneta - Base",
+      "type": "running",
+      "km": 7.21,
+      "date": "2026-04-26 07:55:54"
+    },
+    {
+      "name": "Sabaneta - Base",
+      "type": "running",
+      "km": 4.15,
+      "date": "2026-04-24 19:20:11"
+    },
+    {
+      "name": "Sabaneta Carrera",
+      "type": "running",
+      "km": 3.72,
+      "date": "2026-04-23 19:22:21"
+    },
+    {
+      "name": "AMRAP con peso corporal en 10 mi",
+      "type": "hiit",
+      "km": 0.0,
+      "date": "2026-04-22 20:21:20"
+    },
+    {
+      "name": "T14: Base Z2",
+      "type": "running",
+      "km": 3.74,
+      "date": "2026-04-22 19:33:13"
+    },
+    {
+      "name": "T13: Base Z2",
+      "type": "running",
+      "km": 6.96,
+      "date": "2026-04-19 08:04:08"
+    },
+    {
+      "name": "T12: Base Z2",
+      "type": "running",
+      "km": 3.89,
+      "date": "2026-04-17 19:17:34"
+    },
+    {
+      "name": "T11: Base Z2",
+      "type": "running",
+      "km": 3.93,
+      "date": "2026-04-16 20:04:05"
+    },
+    {
+      "name": "T10: Base Z2",
+      "type": "running",
+      "km": 2.8,
+      "date": "2026-04-15 19:44:27"
+    },
+    {
+      "name": "T9: Base Z2 ",
+      "type": "running",
+      "km": 3.61,
+      "date": "2026-04-14 19:45:57"
+    }
+  ]
+}
