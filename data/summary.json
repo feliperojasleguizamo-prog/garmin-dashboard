@@ -60,61 +60,161 @@
       "name": "Sabaneta - Base",
       "type": "running",
       "km": 7.21,
-      "date": "2026-04-26 07:55:54"
+      "date": "2026-04-26 07:55:54",
+      "hr": 146,
+      "calories": 653
     },
     {
       "name": "Sabaneta - Base",
       "type": "running",
       "km": 4.15,
-      "date": "2026-04-24 19:20:11"
+      "date": "2026-04-24 19:20:11",
+      "hr": 148,
+      "calories": 377
     },
     {
       "name": "Sabaneta Carrera",
       "type": "running",
       "km": 3.72,
-      "date": "2026-04-23 19:22:21"
+      "date": "2026-04-23 19:22:21",
+      "hr": 148,
+      "calories": 342
     },
     {
       "name": "AMRAP con peso corporal en 10 mi",
       "type": "hiit",
       "km": 0.0,
-      "date": "2026-04-22 20:21:20"
+      "date": "2026-04-22 20:21:20",
+      "hr": 146,
+      "calories": 126
     },
     {
       "name": "T14: Base Z2",
       "type": "running",
       "km": 3.74,
-      "date": "2026-04-22 19:33:13"
+      "date": "2026-04-22 19:33:13",
+      "hr": 149,
+      "calories": 350
     },
     {
       "name": "T13: Base Z2",
       "type": "running",
       "km": 6.96,
-      "date": "2026-04-19 08:04:08"
+      "date": "2026-04-19 08:04:08",
+      "hr": 152,
+      "calories": 639
     },
     {
       "name": "T12: Base Z2",
       "type": "running",
       "km": 3.89,
-      "date": "2026-04-17 19:17:34"
+      "date": "2026-04-17 19:17:34",
+      "hr": 149,
+      "calories": 358
     },
     {
       "name": "T11: Base Z2",
       "type": "running",
       "km": 3.93,
-      "date": "2026-04-16 20:04:05"
+      "date": "2026-04-16 20:04:05",
+      "hr": 148,
+      "calories": 364
     },
     {
       "name": "T10: Base Z2",
       "type": "running",
       "km": 2.8,
-      "date": "2026-04-15 19:44:27"
+      "date": "2026-04-15 19:44:27",
+      "hr": 148,
+      "calories": 255
     },
     {
       "name": "T9: Base Z2 ",
       "type": "running",
       "km": 3.61,
-      "date": "2026-04-14 19:45:57"
+      "date": "2026-04-14 19:45:57",
+      "hr": 150,
+      "calories": 333
+    },
+    {
+      "name": "T8: Base Z2 (reconfiguradas)",
+      "type": "running",
+      "km": 4.49,
+      "date": "2026-04-12 06:33:24",
+      "hr": 143,
+      "calories": 428
+    },
+    {
+      "name": "T7: Base Z2",
+      "type": "running",
+      "km": 3.1,
+      "date": "2026-04-10 20:01:52",
+      "hr": 149,
+      "calories": 284
+    },
+    {
+      "name": "T6: Base Z2",
+      "type": "running",
+      "km": 3.06,
+      "date": "2026-04-09 20:04:38",
+      "hr": 153,
+      "calories": 280
+    },
+    {
+      "name": "T5: Base Z2",
+      "type": "running",
+      "km": 3.2,
+      "date": "2026-04-08 19:10:50",
+      "hr": 160,
+      "calories": 299
+    },
+    {
+      "name": "T4: Base Z2",
+      "type": "running",
+      "km": 3.05,
+      "date": "2026-04-07 19:41:17",
+      "hr": 158,
+      "calories": 278
+    },
+    {
+      "name": "T: 3, Base Z2, sali\u00c3\u00b3 bien",
+      "type": "running",
+      "km": 5.96,
+      "date": "2026-04-04 06:17:14",
+      "hr": 155,
+      "calories": 548
+    },
+    {
+      "name": "T: 2, Base Z2, fallido nuevamente.",
+      "type": "running",
+      "km": 3.42,
+      "date": "2026-04-03 10:23:20",
+      "hr": 174,
+      "calories": 335
+    },
+    {
+      "name": "T: 1, Base Z2 (no tan zona 2)",
+      "type": "running",
+      "km": 4.57,
+      "date": "2026-04-02 18:16:34",
+      "hr": 165,
+      "calories": 456
+    },
+    {
+      "name": "Sabaneta Carrera",
+      "type": "running",
+      "km": 4.05,
+      "date": "2026-02-12 06:13:12",
+      "hr": 147,
+      "calories": 358
+    },
+    {
+      "name": "Sabaneta Carrera",
+      "type": "running",
+      "km": 3.32,
+      "date": "2026-02-10 06:11:14",
+      "hr": 142,
+      "calories": 287
     }
   ]
 }
