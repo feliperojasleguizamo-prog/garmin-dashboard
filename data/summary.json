@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-01T06:24:49.516Z",
+  "exported_at": "2026-05-01T06:30:14.464Z",
   "steps": {
     "today": 4856,
     "delta": 0,
@@ -102,11 +102,11 @@
     ]
   },
   "sleep": {
-    "hours": 0.0,
-    "deep": 0.0,
-    "rem": 0.0,
-    "light": 0.0,
-    "score": 0,
+    "hours": 6.0,
+    "deep": 1.2,
+    "rem": 0.2,
+    "light": 4.6,
+    "score": 53,
     "delta": 0,
     "spark": []
   },
