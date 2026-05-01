@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-01T05:45:59.200Z",
+  "exported_at": "2026-05-01T05:54:14.793Z",
   "steps": {
     "today": 4856,
     "delta": 0,
@@ -52,7 +52,57 @@
   "vo2max": {
     "current": 39,
     "delta": 0,
-    "spark": []
+    "spark": [],
+    "trend": [
+      {
+        "date": "2026-04-14",
+        "vo2": 37
+      },
+      {
+        "date": "2026-04-15",
+        "vo2": 36
+      },
+      {
+        "date": "2026-04-16",
+        "vo2": 37
+      },
+      {
+        "date": "2026-04-17",
+        "vo2": 37
+      },
+      {
+        "date": "2026-04-19",
+        "vo2": 36
+      },
+      {
+        "date": "2026-04-22",
+        "vo2": 37
+      },
+      {
+        "date": "2026-04-23",
+        "vo2": 36
+      },
+      {
+        "date": "2026-04-24",
+        "vo2": 37
+      },
+      {
+        "date": "2026-04-26",
+        "vo2": 38
+      },
+      {
+        "date": "2026-04-28",
+        "vo2": 38
+      },
+      {
+        "date": "2026-04-29",
+        "vo2": 38
+      },
+      {
+        "date": "2026-04-30",
+        "vo2": 39
+      }
+    ]
   },
   "weight": {
     "current": 94000,
@@ -277,5 +327,102 @@
       "kcal": 560,
       "fc": 149
     }
-  ]
+  ],
+  "training": {
+    "zones": {
+      "z1": 234,
+      "z2": 732,
+      "z3": 1220,
+      "z4": 733,
+      "z5": 22
+    },
+    "activityTypes": [
+      {
+        "type": "running",
+        "count": 78
+      },
+      {
+        "type": "hiit",
+        "count": 3
+      },
+      {
+        "type": "walking",
+        "count": 1
+      }
+    ],
+    "effects": [
+      {
+        "date": "2025-07-13",
+        "aerobic": 3.9,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-12",
+        "aerobic": 2.1,
+        "anaerobic": 3.3,
+        "label": "SPEED"
+      },
+      {
+        "date": "2025-07-11",
+        "aerobic": 3.4,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-10",
+        "aerobic": 3.2,
+        "anaerobic": 0,
+        "label": "AEROBIC_BASE"
+      },
+      {
+        "date": "2025-07-09",
+        "aerobic": 3.1,
+        "anaerobic": 0,
+        "label": "AEROBIC_BASE"
+      },
+      {
+        "date": "2025-07-06",
+        "aerobic": 4.2,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-05",
+        "aerobic": 3.6,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-04",
+        "aerobic": 4.3,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-03",
+        "aerobic": 4.9,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      },
+      {
+        "date": "2025-07-02",
+        "aerobic": 4.3,
+        "anaerobic": 0,
+        "label": "VO2MAX"
+      },
+      {
+        "date": "2025-07-02",
+        "aerobic": 1,
+        "anaerobic": 0,
+        "label": "RECOVERY"
+      },
+      {
+        "date": "2025-06-29",
+        "aerobic": 4,
+        "anaerobic": 0,
+        "label": "TEMPO"
+      }
+    ]
+  }
 }
