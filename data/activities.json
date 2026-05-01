@@ -9,8 +9,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -196,9 +196,9 @@
     "endTimeGMT": "2026-05-01 00:49:49",
     "qualifyingDive": false,
     "activityUUID": "27eddb28-c037-42a6-b9b6-a5e1885b82eb",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -216,8 +216,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -433,9 +433,9 @@
     "endTimeGMT": "2026-04-30 01:02:29",
     "qualifyingDive": false,
     "activityUUID": "4c4bddab-44cb-4ae7-b85a-947ecdaa2fa2",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -453,8 +453,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -640,9 +640,9 @@
     "endTimeGMT": "2026-04-29 01:10:55",
     "qualifyingDive": false,
     "activityUUID": "96186d76-4deb-4ea9-9f4f-e94f71d8f65d",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -660,8 +660,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -848,9 +848,9 @@
     "endTimeGMT": "2026-04-26 13:53:38",
     "qualifyingDive": false,
     "activityUUID": "2af1c10b-1ad0-4c8b-bdf1-cb4241aaaf40",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -868,8 +868,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -1054,9 +1054,9 @@
     "endTimeGMT": "2026-04-25 00:54:46",
     "qualifyingDive": false,
     "activityUUID": "171d4b29-ef23-4ffa-b3b8-321bf719284d",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -1074,8 +1074,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -1246,9 +1246,9 @@
     "endTimeGMT": "2026-04-24 00:53:34",
     "qualifyingDive": false,
     "activityUUID": "7148de32-6dce-4687-9795-fda8a09a41d4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -1266,8 +1266,8 @@
       "typeKey": "hiit",
       "parentTypeId": 29,
       "isHidden": false,
-      "trimmable": false,
-      "restricted": false
+      "restricted": false,
+      "trimmable": false
     },
     "eventType": {
       "typeId": 9,
@@ -1433,9 +1433,9 @@
     "endTimeGMT": "2026-04-23 01:31:36",
     "qualifyingDive": false,
     "activityUUID": "6794e906-1489-455c-a1fb-d54d0379a1ef",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -1453,8 +1453,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -1640,9 +1640,9 @@
     "endTimeGMT": "2026-04-23 01:04:55",
     "qualifyingDive": false,
     "activityUUID": "92884855-7a0d-49eb-a59f-6cde0d6ed161",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -1660,8 +1660,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -1848,9 +1848,9 @@
     "endTimeGMT": "2026-04-19 14:04:13",
     "qualifyingDive": false,
     "activityUUID": "752fd249-31c4-41f5-a5d9-90451969b2e2",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -1868,8 +1868,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -2040,9 +2040,9 @@
     "endTimeGMT": "2026-04-18 00:51:44",
     "qualifyingDive": false,
     "activityUUID": "ec803dbf-788b-488e-bca1-08a3e4d93c63",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -2060,8 +2060,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -2217,9 +2217,9 @@
     "endTimeGMT": "2026-04-17 01:36:07",
     "qualifyingDive": false,
     "activityUUID": "f925576d-747b-4f03-b1c5-666e1b915c15",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -2237,8 +2237,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -2424,9 +2424,9 @@
     "endTimeGMT": "2026-04-16 01:08:40",
     "qualifyingDive": false,
     "activityUUID": "79727046-3697-42d2-b999-c5ea251189a9",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -2444,8 +2444,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -2631,9 +2631,9 @@
     "endTimeGMT": "2026-04-15 01:16:21",
     "qualifyingDive": false,
     "activityUUID": "81e3750f-de13-4e22-ad90-ddfa3ed32146",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -2651,8 +2651,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -2838,9 +2838,9 @@
     "endTimeGMT": "2026-04-12 12:07:50",
     "qualifyingDive": false,
     "activityUUID": "46333d1e-77d6-47af-a5f5-7724ae2894d9",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -2858,8 +2858,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -3045,9 +3045,9 @@
     "endTimeGMT": "2026-04-11 01:25:58",
     "qualifyingDive": false,
     "activityUUID": "8b344008-62f9-468f-9188-95b61df69a2d",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -3065,8 +3065,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -3252,9 +3252,9 @@
     "endTimeGMT": "2026-04-10 01:29:06",
     "qualifyingDive": false,
     "activityUUID": "fb7f279f-0148-46b2-a4a0-178ba270a1c9",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -3272,8 +3272,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -3459,9 +3459,9 @@
     "endTimeGMT": "2026-04-09 00:34:54",
     "qualifyingDive": false,
     "activityUUID": "62aa6eaa-e80f-40b4-ad4a-318acc1df34c",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -3479,8 +3479,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -3666,9 +3666,9 @@
     "endTimeGMT": "2026-04-08 01:04:39",
     "qualifyingDive": false,
     "activityUUID": "244f7d54-f7e5-4cf0-9cd1-46dc2e9bdc71",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -3686,8 +3686,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -3874,9 +3874,9 @@
     "endTimeGMT": "2026-04-04 12:06:15",
     "qualifyingDive": false,
     "activityUUID": "9737cdce-5937-472a-a2f9-c78a39e20fe8",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -3894,8 +3894,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -4051,9 +4051,9 @@
     "endTimeGMT": "2026-04-03 15:46:25",
     "qualifyingDive": false,
     "activityUUID": "9ae774b2-37f1-4e3f-85d0-3068576ae6c4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -4071,8 +4071,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -4258,9 +4258,9 @@
     "endTimeGMT": "2026-04-02 23:50:56",
     "qualifyingDive": false,
     "activityUUID": "05c1a48b-a949-428a-a845-75249c4d882f",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -4278,8 +4278,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -4449,9 +4449,9 @@
     "endTimeGMT": "2026-02-12 11:46:32",
     "qualifyingDive": false,
     "activityUUID": "8f2e417a-65bf-43b5-a644-26b6678e8f30",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -4469,8 +4469,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -4640,9 +4640,9 @@
     "endTimeGMT": "2026-02-10 11:44:39",
     "qualifyingDive": false,
     "activityUUID": "f6c0a31b-f6d8-4445-a0a6-3fb0736c967e",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -4660,8 +4660,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -4831,9 +4831,9 @@
     "endTimeGMT": "2026-02-09 11:40:13",
     "qualifyingDive": false,
     "activityUUID": "b7719d1e-d557-4dd8-ab28-d5e94c764f9b",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -4851,8 +4851,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5021,9 +5021,9 @@
     "endTimeGMT": "2026-02-04 00:55:29",
     "qualifyingDive": false,
     "activityUUID": "f923ae6c-7778-4e34-ae4b-13bb2778ea08",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5041,8 +5041,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5211,9 +5211,9 @@
     "endTimeGMT": "2026-01-28 01:14:24",
     "qualifyingDive": false,
     "activityUUID": "1e383148-cac2-4335-99bf-ee6eb7068a7e",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5231,8 +5231,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5401,9 +5401,9 @@
     "endTimeGMT": "2026-01-21 01:09:50",
     "qualifyingDive": false,
     "activityUUID": "f6587350-8c7e-4091-be06-2ad13c884178",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5421,8 +5421,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5591,9 +5591,9 @@
     "endTimeGMT": "2026-01-20 01:11:39",
     "qualifyingDive": false,
     "activityUUID": "8be6339d-ac40-4f9d-adbc-13fb8a9bb9bd",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5611,8 +5611,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5781,9 +5781,9 @@
     "endTimeGMT": "2026-01-15 01:21:12",
     "qualifyingDive": false,
     "activityUUID": "bed40c01-3378-4485-957e-e556d37a5191",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5801,8 +5801,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -5970,9 +5970,9 @@
     "endTimeGMT": "2026-01-11 00:47:50",
     "qualifyingDive": false,
     "activityUUID": "065af93d-d1cf-450b-9db1-fc19c6679702",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -5990,8 +5990,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -6160,9 +6160,9 @@
     "endTimeGMT": "2026-01-07 11:45:42",
     "qualifyingDive": false,
     "activityUUID": "09753042-f354-45d8-a521-1dedf127ce2a",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -6180,8 +6180,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -6335,9 +6335,9 @@
     "endTimeGMT": "2026-01-06 11:42:55",
     "qualifyingDive": false,
     "activityUUID": "8224de34-7ac1-48ce-98a5-e5b2f05e75d5",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -6355,8 +6355,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -6525,9 +6525,9 @@
     "endTimeGMT": "2026-01-05 12:12:16",
     "qualifyingDive": false,
     "activityUUID": "cf23cd24-da60-47c1-9701-15cd262dd1b0",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -6545,8 +6545,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -6715,9 +6715,9 @@
     "endTimeGMT": "2026-01-04 11:39:41",
     "qualifyingDive": false,
     "activityUUID": "e3eb0c53-cb86-4278-9d8f-a68fd91108b9",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -6735,8 +6735,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -6890,9 +6890,9 @@
     "endTimeGMT": "2026-01-02 11:56:26",
     "qualifyingDive": false,
     "activityUUID": "7847ae35-ff98-4a85-8cae-bf9a86c9dad4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -6910,8 +6910,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -7080,9 +7080,9 @@
     "endTimeGMT": "2025-11-19 11:57:05",
     "qualifyingDive": false,
     "activityUUID": "92563eca-6f7e-4985-86a2-f1a911f0a84c",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -7100,8 +7100,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -7270,9 +7270,9 @@
     "endTimeGMT": "2025-11-15 13:22:20",
     "qualifyingDive": false,
     "activityUUID": "f61c6ed2-e0f7-4595-b13b-5aa73fce5eeb",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -7290,8 +7290,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -7460,9 +7460,9 @@
     "endTimeGMT": "2025-11-13 11:37:28",
     "qualifyingDive": false,
     "activityUUID": "60a753b2-614c-4e1b-8545-77ba34664adf",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -7480,8 +7480,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -7650,9 +7650,9 @@
     "endTimeGMT": "2025-11-12 11:32:34",
     "qualifyingDive": false,
     "activityUUID": "3bd845bd-8897-4fc5-b514-70f5ac7b1889",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -7670,8 +7670,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -7840,9 +7840,9 @@
     "endTimeGMT": "2025-11-07 11:41:38",
     "qualifyingDive": false,
     "activityUUID": "e9b312d1-7472-451f-beae-7990aef2dfcc",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -7860,8 +7860,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -8030,9 +8030,9 @@
     "endTimeGMT": "2025-11-06 11:34:46",
     "qualifyingDive": false,
     "activityUUID": "1e0e4f29-63fe-4728-89b3-c15742e46f7a",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8050,8 +8050,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -8220,9 +8220,9 @@
     "endTimeGMT": "2025-11-05 11:37:28",
     "qualifyingDive": false,
     "activityUUID": "5d01a90e-39f9-49cb-917c-6cd8602f48e8",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8240,8 +8240,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -8410,9 +8410,9 @@
     "endTimeGMT": "2025-11-04 11:41:23",
     "qualifyingDive": false,
     "activityUUID": "68ee8d73-4c2e-4446-870e-6ce5bf39a907",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8430,8 +8430,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -8600,9 +8600,9 @@
     "endTimeGMT": "2025-11-03 15:57:48",
     "qualifyingDive": false,
     "activityUUID": "cc4dd4aa-5998-4c8f-bbb3-af9a448c3a43",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8620,8 +8620,8 @@
       "typeKey": "hiit",
       "parentTypeId": 29,
       "isHidden": false,
-      "trimmable": false,
-      "restricted": false
+      "restricted": false,
+      "trimmable": false
     },
     "eventType": {
       "typeId": 9,
@@ -8776,9 +8776,9 @@
     "endTimeGMT": "2025-10-17 00:16:32",
     "qualifyingDive": false,
     "activityUUID": "1965a4d8-4f9d-4c6a-9971-5aba0d614a0d",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8796,8 +8796,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -8955,9 +8955,9 @@
     "endTimeGMT": "2025-10-15 12:02:21",
     "qualifyingDive": false,
     "activityUUID": "ec3f7e27-ffe4-487e-a837-6b54ffa013c4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -8975,8 +8975,8 @@
       "typeKey": "hiit",
       "parentTypeId": 29,
       "isHidden": false,
-      "trimmable": false,
-      "restricted": false
+      "restricted": false,
+      "trimmable": false
     },
     "eventType": {
       "typeId": 9,
@@ -9131,9 +9131,9 @@
     "endTimeGMT": "2025-10-15 00:51:49",
     "qualifyingDive": false,
     "activityUUID": "3bf2622d-3d2d-49a8-9289-02f180f50470",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -9151,8 +9151,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -9326,9 +9326,9 @@
     "endTimeGMT": "2025-10-14 11:56:51",
     "qualifyingDive": false,
     "activityUUID": "4b97793f-5fab-45d8-95f4-a6d2548fb7f0",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -9346,8 +9346,8 @@
       "typeKey": "walking",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -9456,9 +9456,9 @@
     "endTimeGMT": "2025-09-22 01:11:27",
     "qualifyingDive": false,
     "activityUUID": "0558e9db-c795-4f1c-b2e7-9ca45169621b",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -9476,8 +9476,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 1,
@@ -9666,9 +9666,9 @@
     "endTimeGMT": "2025-09-07 13:43:51",
     "qualifyingDive": false,
     "activityUUID": "35996bd6-296c-4d42-9920-126f8148f0bd",
-    "purposeful": false,
     "pr": true,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -9686,8 +9686,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -9857,9 +9857,9 @@
     "endTimeGMT": "2025-09-03 01:15:32",
     "qualifyingDive": false,
     "activityUUID": "207e14d6-66a4-4f1d-81fa-4a24694fd825",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -9877,8 +9877,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -10047,9 +10047,9 @@
     "endTimeGMT": "2025-08-28 01:27:54",
     "qualifyingDive": false,
     "activityUUID": "1c7cf243-92a4-42ca-82e5-576268db55f4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -10067,8 +10067,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -10284,9 +10284,9 @@
     "endTimeGMT": "2025-08-27 02:08:20",
     "qualifyingDive": false,
     "activityUUID": "85802d5f-223f-4e96-8076-9c7246a52f9a",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -10304,8 +10304,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -10522,9 +10522,9 @@
     "endTimeGMT": "2025-08-21 12:32:05",
     "qualifyingDive": false,
     "activityUUID": "7e43cfd3-41c6-48d1-baa2-c49c67f6fabd",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -10542,8 +10542,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -10759,9 +10759,9 @@
     "endTimeGMT": "2025-08-20 01:19:30",
     "qualifyingDive": false,
     "activityUUID": "e770718c-bcfd-472b-a3c9-3edba3d0677b",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -10779,8 +10779,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -10949,9 +10949,9 @@
     "endTimeGMT": "2025-08-16 16:19:19",
     "qualifyingDive": false,
     "activityUUID": "7b296906-394b-4bb2-9f6b-d45ec56fc5ee",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -10969,8 +10969,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -11171,9 +11171,9 @@
     "endTimeGMT": "2025-08-12 11:40:11",
     "qualifyingDive": false,
     "activityUUID": "f49d32f0-07a8-4746-971e-2cb696c2bfa3",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -11191,8 +11191,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -11408,9 +11408,9 @@
     "endTimeGMT": "2025-08-07 16:54:40",
     "qualifyingDive": false,
     "activityUUID": "d5bf7137-087a-4d0a-b385-3b7283ffa912",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -11428,8 +11428,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -11645,9 +11645,9 @@
     "endTimeGMT": "2025-08-05 13:01:55",
     "qualifyingDive": false,
     "activityUUID": "8fb39bfb-ad75-4675-a46a-de42cf04493c",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -11665,8 +11665,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -11882,9 +11882,9 @@
     "endTimeGMT": "2025-08-03 15:58:19",
     "qualifyingDive": false,
     "activityUUID": "273837f2-34c1-4d35-8816-5eaf3ab81704",
-    "purposeful": false,
     "pr": true,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -11902,8 +11902,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -12119,9 +12119,9 @@
     "endTimeGMT": "2025-07-31 01:06:12",
     "qualifyingDive": false,
     "activityUUID": "c00c4616-678b-4915-9628-4e1b41130575",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -12139,8 +12139,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -12342,9 +12342,9 @@
     "endTimeGMT": "2025-07-27 16:45:23",
     "qualifyingDive": false,
     "activityUUID": "814e7430-8e08-492e-bd73-2dea0cbf7a77",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -12362,8 +12362,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -12579,9 +12579,9 @@
     "endTimeGMT": "2025-07-25 11:51:30",
     "qualifyingDive": false,
     "activityUUID": "927a5256-4aae-44b2-bf46-78e8ab72e994",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -12599,8 +12599,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -12816,9 +12816,9 @@
     "endTimeGMT": "2025-07-24 13:01:47",
     "qualifyingDive": false,
     "activityUUID": "d7a83569-6fe8-4c54-b5ad-f3f6aa5320ba",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -12836,8 +12836,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -13053,9 +13053,9 @@
     "endTimeGMT": "2025-07-23 12:55:04",
     "qualifyingDive": false,
     "activityUUID": "fc2f9cde-69bf-4ebf-965a-6fef889242a3",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -13073,8 +13073,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -13291,9 +13291,9 @@
     "endTimeGMT": "2025-07-20 14:45:54",
     "qualifyingDive": false,
     "activityUUID": "f2277a82-f8d6-4520-bb35-5dc30d7e6991",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -13311,8 +13311,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -13528,9 +13528,9 @@
     "endTimeGMT": "2025-07-19 17:05:21",
     "qualifyingDive": false,
     "activityUUID": "979f8fa4-b84c-4aee-8a1a-ed7ee6fbf10a",
-    "purposeful": false,
     "pr": true,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -13548,8 +13548,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -13765,9 +13765,9 @@
     "endTimeGMT": "2025-07-19 01:29:27",
     "qualifyingDive": false,
     "activityUUID": "bb82e289-4cbf-459e-9994-59d895ab76e4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -13785,8 +13785,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -14002,9 +14002,9 @@
     "endTimeGMT": "2025-07-17 12:59:10",
     "qualifyingDive": false,
     "activityUUID": "c46569c7-3dc9-4c50-b628-b6e89f3d7e4f",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -14022,8 +14022,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -14237,9 +14237,9 @@
     "endTimeGMT": "2025-07-16 12:35:19",
     "qualifyingDive": false,
     "activityUUID": "bf2e7798-1016-41bb-a7e2-acc3487e84e6",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -14257,8 +14257,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -14460,9 +14460,9 @@
     "endTimeGMT": "2025-07-13 16:00:15",
     "qualifyingDive": false,
     "activityUUID": "7858578e-6bce-45c3-8ec1-0cad40807a51",
-    "purposeful": false,
     "pr": true,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -14480,8 +14480,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -14711,9 +14711,9 @@
     "endTimeGMT": "2025-07-12 20:33:33",
     "qualifyingDive": false,
     "activityUUID": "a0404e40-d5a3-4eac-9de2-0e3b5abbc892",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -14731,8 +14731,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -14933,9 +14933,9 @@
     "endTimeGMT": "2025-07-11 11:26:34",
     "qualifyingDive": false,
     "activityUUID": "cb283a86-9d97-4b03-8922-3bfeb0d96241",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -14953,8 +14953,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -15169,9 +15169,9 @@
     "endTimeGMT": "2025-07-10 11:20:22",
     "qualifyingDive": false,
     "activityUUID": "7afadfd4-d93e-49e8-be46-68c48a3e041e",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -15189,8 +15189,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -15406,9 +15406,9 @@
     "endTimeGMT": "2025-07-09 11:27:13",
     "qualifyingDive": false,
     "activityUUID": "efec6c4d-7f57-424a-9499-7bdb29c690ba",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -15426,8 +15426,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -15644,9 +15644,9 @@
     "endTimeGMT": "2025-07-06 15:54:51",
     "qualifyingDive": false,
     "activityUUID": "56f54596-de31-4808-91ee-4de4d72d340c",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -15664,8 +15664,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -15851,9 +15851,9 @@
     "endTimeGMT": "2025-07-05 15:34:53",
     "qualifyingDive": false,
     "activityUUID": "a2c95962-b0a6-4a81-9003-bb72e6c6a7cc",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -15871,8 +15871,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -16073,9 +16073,9 @@
     "endTimeGMT": "2025-07-04 11:28:10",
     "qualifyingDive": false,
     "activityUUID": "431f5a9e-b3b8-4b97-b25c-6f5763c1341c",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -16093,8 +16093,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -16310,9 +16310,9 @@
     "endTimeGMT": "2025-07-03 11:27:15",
     "qualifyingDive": false,
     "activityUUID": "d7b4103a-2899-4cff-bfa7-50eb0d96b6d2",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -16330,8 +16330,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -16501,9 +16501,9 @@
     "endTimeGMT": "2025-07-02 11:19:18",
     "qualifyingDive": false,
     "activityUUID": "6d424fa1-dbe3-4d64-80bd-cbf8339824c2",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -16521,8 +16521,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -16719,9 +16719,9 @@
     "endTimeGMT": "2025-07-02 10:43:05",
     "qualifyingDive": false,
     "activityUUID": "6f52ae98-69ef-4584-8fb4-b4b8b0a553b4",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
@@ -16739,8 +16739,8 @@
       "typeKey": "running",
       "parentTypeId": 17,
       "isHidden": false,
-      "trimmable": true,
-      "restricted": false
+      "restricted": false,
+      "trimmable": true
     },
     "eventType": {
       "typeId": 9,
@@ -16910,9 +16910,9 @@
     "endTimeGMT": "2025-06-29 13:45:45",
     "qualifyingDive": false,
     "activityUUID": "fe74f871-a596-477e-b7dd-036a22f8b139",
-    "purposeful": false,
     "pr": false,
     "favorite": false,
+    "purposeful": false,
     "parent": false,
     "decoDive": false,
     "manualActivity": false,
