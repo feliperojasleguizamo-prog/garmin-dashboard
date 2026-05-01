@@ -1,3 +1,44 @@
 {
-  "error": 400
+  "dailySleepDTO": {
+    "id": null,
+    "userProfilePK": 134728532,
+    "calendarDate": "2026-05-01",
+    "sleepTimeSeconds": null,
+    "napTimeSeconds": null,
+    "sleepWindowConfirmed": null,
+    "sleepWindowConfirmationType": null,
+    "sleepStartTimestampGMT": null,
+    "sleepEndTimestampGMT": null,
+    "sleepStartTimestampLocal": null,
+    "sleepEndTimestampLocal": null,
+    "autoSleepStartTimestampGMT": null,
+    "autoSleepEndTimestampGMT": null,
+    "sleepQualityTypePK": null,
+    "sleepResultTypePK": null,
+    "unmeasurableSleepSeconds": null,
+    "deepSleepSeconds": null,
+    "lightSleepSeconds": null,
+    "remSleepSeconds": null,
+    "awakeSleepSeconds": null,
+    "deviceRemCapable": false,
+    "retro": false,
+    "sleepNeed": {
+      "userProfilePk": 134728532,
+      "calendarDate": "2026-05-01",
+      "deviceId": 3602083184,
+      "timestampGmt": "2026-05-01T00:50:01",
+      "baseline": 480,
+      "actual": 540,
+      "feedback": "HIGHLY_INCREASED",
+      "trainingFeedback": "NO_CHANGE",
+      "sleepHistoryAdjustment": "INCREASING",
+      "hrvAdjustment": "NO_CHANGE",
+      "napAdjustment": "NO_CHANGE",
+      "displayedForTheDay": true,
+      "preferredActivityTracker": true
+    }
+  },
+  "sleepMovement": null,
+  "remSleepData": null,
+  "sleepLevels": null
 }
