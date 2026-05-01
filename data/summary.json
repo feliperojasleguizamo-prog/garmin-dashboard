@@ -1,29 +1,29 @@
 {
-  "exported_at": null,
+  "exported_at": "2026-05-01T05:22:36.446Z",
   "steps": {
-    "today": 8922,
+    "today": 4856,
     "delta": 0,
     "spark": [
+      4856,
+      5652,
+      4856,
       8922,
       5412,
       4858,
-      272,
-      4816,
-      9056,
-      5250
+      272
     ]
   },
   "heart": {
-    "resting": 146,
+    "resting": 144,
     "delta": 0,
     "spark": [
+      144,
+      153,
+      151,
       146,
       148,
       148,
-      146,
-      149,
-      152,
-      149
+      146
     ]
   },
   "sleep": {
@@ -37,32 +37,60 @@
     "spark": []
   },
   "calories": {
-    "today": 653,
+    "today": 343,
     "delta": 0,
     "spark": [
+      343,
+      416,
+      360,
       653,
       377,
       342,
-      126,
-      350,
-      639,
-      358
+      126
     ]
   },
   "vo2max": {
-    "current": 38,
+    "current": 39,
     "delta": 0,
     "spark": []
   },
   "weight": {
-    "current": 102000,
+    "current": 94000,
     "spark": [
+      98000,
+      97099,
       97800,
       98000,
-      102000
+      102000,
+      95000,
+      94000
     ]
   },
   "activities": [
+    {
+      "name": "Sabaneta - Base",
+      "type": "running",
+      "km": 3.82,
+      "date": "2026-04-30 19:06:30",
+      "hr": 144,
+      "calories": 343
+    },
+    {
+      "name": "Sabaneta - Umbral",
+      "type": "running",
+      "km": 4.67,
+      "date": "2026-04-29 19:26:07",
+      "hr": 153,
+      "calories": 416
+    },
+    {
+      "name": "Sabaneta - Base",
+      "type": "running",
+      "km": 3.93,
+      "date": "2026-04-28 19:38:51",
+      "hr": 151,
+      "calories": 360
+    },
     {
       "name": "Sabaneta - Base",
       "type": "running",
@@ -198,30 +226,6 @@
       "date": "2026-04-03 10:23:20",
       "hr": 174,
       "calories": 335
-    },
-    {
-      "name": "T: 1, Base Z2 (no tan zona 2)",
-      "type": "running",
-      "km": 4.57,
-      "date": "2026-04-02 18:16:34",
-      "hr": 165,
-      "calories": 456
-    },
-    {
-      "name": "Sabaneta Carrera",
-      "type": "running",
-      "km": 4.05,
-      "date": "2026-02-12 06:13:12",
-      "hr": 147,
-      "calories": 358
-    },
-    {
-      "name": "Sabaneta Carrera",
-      "type": "running",
-      "km": 3.32,
-      "date": "2026-02-10 06:11:14",
-      "hr": 142,
-      "calories": 287
     }
   ]
 }
