@@ -1,96 +1,14 @@
 {
   "userProfilePK": 134728532,
-  "calendarDate": "2026-05-01",
-  "startTimestampGMT": "2026-05-01T05:00:00.0",
-  "endTimestampGMT": "2026-05-01T05:35:00.0",
-  "startTimestampLocal": "2026-05-01T00:00:00.0",
-  "endTimestampLocal": "2026-05-02T00:00:00.0",
-  "maxHeartRate": 83,
-  "minHeartRate": 75,
-  "restingHeartRate": 54,
-  "lastSevenDaysAvgRestingHeartRate": 50,
-  "heartRateValueDescriptors": [
-    {
-      "index": 0,
-      "key": "timestamp"
-    },
-    {
-      "index": 1,
-      "key": "heartrate"
-    }
-  ],
-  "heartRateValues": [
-    [
-      1777611600000,
-      76
-    ],
-    [
-      1777611720000,
-      78
-    ],
-    [
-      1777611840000,
-      81
-    ],
-    [
-      1777611960000,
-      78
-    ],
-    [
-      1777612080000,
-      81
-    ],
-    [
-      1777612200000,
-      80
-    ],
-    [
-      1777612320000,
-      75
-    ],
-    [
-      1777612440000,
-      78
-    ],
-    [
-      1777612560000,
-      82
-    ],
-    [
-      1777612680000,
-      82
-    ],
-    [
-      1777612800000,
-      83
-    ],
-    [
-      1777612920000,
-      80
-    ],
-    [
-      1777613040000,
-      80
-    ],
-    [
-      1777613160000,
-      83
-    ],
-    [
-      1777613280000,
-      81
-    ],
-    [
-      1777613400000,
-      79
-    ],
-    [
-      1777613520000,
-      79
-    ],
-    [
-      1777613640000,
-      79
-    ]
-  ]
+  "calendarDate": "2026-05-02",
+  "startTimestampGMT": null,
+  "endTimestampGMT": null,
+  "startTimestampLocal": null,
+  "endTimestampLocal": null,
+  "maxHeartRate": null,
+  "minHeartRate": null,
+  "restingHeartRate": null,
+  "lastSevenDaysAvgRestingHeartRate": null,
+  "heartRateValueDescriptors": null,
+  "heartRateValues": null
 }
