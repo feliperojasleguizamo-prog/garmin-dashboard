@@ -1,0 +1,351 @@
+/* ═══════════════════════════════════════════════
+   MIDNIGHT ATHLETE — Design System
+   ═══════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  /* ── Fondos ── */
+  --bg-base:        #06080d;
+  --bg-elevated:    #0b0f1a;
+  --bg-card:        #0f1623;
+  --bg-card-hover:  #131d2e;
+  --bg-overlay:     rgba(6, 8, 13, 0.92);
+
+  /* ── Bordes ── */
+  --border-subtle:  rgba(255, 255, 255, 0.05);
+  --border-default: rgba(255, 255, 255, 0.10);
+  --border-strong:  rgba(255, 255, 255, 0.18);
+  --border-accent:  rgba(91, 143, 255, 0.35);
+
+  /* ── Texto ── */
+  --text-primary:   #eef2f8;
+  --text-secondary: #8899b4;
+  --text-tertiary:  #4a5a75;
+  --text-disabled:  #262f42;
+
+  /* ── Acento principal y métricas ── */
+  --accent-primary:    #5b8fff;
+  --metric-activity:   #ff5722;
+  --metric-heart:      #ff3366;
+  --metric-sleep:      #a78bfa;
+  --metric-stress:     #f59e0b;
+  --metric-recovery:   #06d6a0;
+  --metric-strength:   #fbbf24;
+
+  /* ── Estados ── */
+  --success: #06d6a0;
+  --warning: #f59e0b;
+  --danger:  #ff3366;
+
+  /* ── Radios ── */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+
+  /* ── Sombras ── */
+  --shadow-card:     0 2px 24px -4px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.04);
+  --shadow-elevated: 0 16px 64px -16px rgba(0,0,0,0.75);
+  --shadow-accent:   0 0 24px rgba(91,143,255,0.12);
+
+  /* ── Espaciado ── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* ── Tipografía ── */
+  --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:  'JetBrains Mono', 'Fira Code', monospace;
+}
+
+
+/* ═══════════════════════════════════════════════
+   RESET
+   ═══════════════════════════════════════════════ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'cv11', 'ss01', 'kern';
+  letter-spacing: -0.011em;
+}
+
+
+/* ═══════════════════════════════════════════════
+   SCROLLBAR PERSONALIZADA
+   ═══════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.1);
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.18);
+}
+
+
+/* ═══════════════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════════════ */
+.app-shell {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: var(--bg-elevated);
+  border-right: 1px solid var(--border-subtle);
+  padding: var(--space-5) var(--space-4);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  padding: var(--space-7) var(--space-7);
+  max-width: 1400px;
+  background:
+    radial-gradient(ellipse 60% 40% at 80% -10%, rgba(91,143,255,0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 30% at -10% 80%, rgba(167,139,250,0.03) 0%, transparent 60%),
+    var(--bg-base);
+  min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .app-shell       { grid-template-columns: 1fr; }
+  .sidebar         { position: relative; height: auto; }
+  .main-content    { padding: var(--space-5); }
+  .chart-grid      { grid-template-columns: 1fr; }
+}
+
+
+/* ═══════════════════════════════════════════════
+   CARDS
+   ═══════════════════════════════════════════════ */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Línea superior que brilla al hacer hover */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 5%; right: 5%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(91, 143, 255, 0.5) 50%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-default);
+  background: var(--bg-card-hover);
+  box-shadow: var(--shadow-card), 0 8px 32px -8px rgba(0,0,0,0.4);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+
+/* ═══════════════════════════════════════════════
+   GRILLAS
+   ═══════════════════════════════════════════════ */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-4);
+}
+
+
+/* ═══════════════════════════════════════════════
+   TIPOGRAFÍA
+   ═══════════════════════════════════════════════ */
+.h1 {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--text-primary);
+}
+
+.h2 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  text-transform: none;
+}
+
+.label {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+
+.metric-value {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  color: var(--text-primary);
+}
+
+.metric-unit {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-left: 5px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+
+/* ═══════════════════════════════════════════════
+   DELTA INDICATORS
+   ═══════════════════════════════════════════════ */
+.delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 99px;
+  letter-spacing: 0.01em;
+}
+
+.delta.up   { color: var(--success); background: rgba(6, 214, 160, 0.1);  }
+.delta.down { color: var(--danger);  background: rgba(255, 51, 102, 0.1); }
+.delta.flat { color: var(--text-secondary); background: rgba(255,255,255,0.05); }
+
+
+/* ═══════════════════════════════════════════════
+   TABLAS
+   ═══════════════════════════════════════════════ */
+table {
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--text-tertiary);
+}
+
+tbody tr {
+  transition: background 0.15s ease;
+}
+
+tbody tr:hover {
+  background: rgba(91, 143, 255, 0.04) !important;
+}
+
+
+/* ═══════════════════════════════════════════════
+   INPUTS Y BOTONES
+   ═══════════════════════════════════════════════ */
+input, textarea, select {
+  font-family: var(--font-sans);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent-primary) !important;
+  box-shadow: 0 0 0 3px rgba(91, 143, 255, 0.12);
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+
+/* ═══════════════════════════════════════════════
+   RECHARTS — tooltips y ejes
+   ═══════════════════════════════════════════════ */
+.recharts-tooltip-wrapper {
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,0.5));
+}
+
+.recharts-cartesian-axis-tick-value {
+  font-size: 11px !important;
+  fill: var(--text-tertiary) !important;
+  font-family: var(--font-sans) !important;
+}
+
+
+/* ═══════════════════════════════════════════════
+   ANIMACIONES GLOBALES
+   ═══════════════════════════════════════════════ */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1;   }
+  50%       { opacity: 0.5; }
+}
+
+.main-content > * {
+  animation: fadeIn 0.3s ease both;
+}
