@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-05-02T23:01:09.310Z",
+  "exported_at": "2026-05-03T03:36:45.496Z",
   "steps": {
     "today": 5410,
     "delta": 0,
@@ -1514,11 +1514,11 @@
     ]
   },
   "sleep": {
-    "hours": 7.8,
-    "deep": 1.3,
-    "rem": 0.6,
-    "light": 5.8,
-    "score": 74,
+    "hours": 10.5,
+    "deep": 1.9,
+    "rem": 0.7,
+    "light": 6.4,
+    "score": 78,
     "delta": 0,
     "spark": [],
     "history": [
@@ -1529,6 +1529,14 @@
         "rem": 0.6,
         "light": 5.8,
         "score": 74
+      },
+      {
+        "date": "2026-05-02",
+        "hours": 10.5,
+        "deep": 1.9,
+        "rem": 0.7,
+        "light": 6.4,
+        "score": 78
       }
     ]
   },
