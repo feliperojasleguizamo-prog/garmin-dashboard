@@ -1,5 +1,210 @@
 [
   {
+    "activityId": 23038542006,
+    "activityName": "Sabaneta - Base",
+    "startTimeLocal": "2026-05-27 19:38:03",
+    "startTimeGMT": "2026-05-28 00:38:03",
+    "activityType": {
+      "typeId": 1,
+      "typeKey": "running",
+      "parentTypeId": 17,
+      "isHidden": false,
+      "restricted": false,
+      "trimmable": true
+    },
+    "eventType": {
+      "typeId": 9,
+      "typeKey": "uncategorized",
+      "sortOrder": 10
+    },
+    "distance": 4856.3798828125,
+    "duration": 2165.381103515625,
+    "elapsedDuration": 2224.93994140625,
+    "movingDuration": 2155.779998779297,
+    "elevationGain": 32,
+    "elevationLoss": 26,
+    "averageSpeed": 2.243000030517578,
+    "maxSpeed": 2.994999885559082,
+    "startLatitude": 6.151303052902222,
+    "startLongitude": -75.62159051187336,
+    "hasPolyline": true,
+    "hasImages": false,
+    "ownerId": 134728532,
+    "ownerDisplayName": "0c8bfca5-4c46-4dfd-a8bd-8c8458fcefbe",
+    "ownerFullName": "Andres Felipe Rojas Leguizamo",
+    "ownerProfileImageUrlSmall": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/c0a57554-46bf-4de3-8adb-55aeadcbf67b-prth.png",
+    "ownerProfileImageUrlMedium": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/c0a57554-46bf-4de3-8adb-55aeadcbf67b-prfr.png",
+    "ownerProfileImageUrlLarge": "https://s3.amazonaws.com/garmin-connect-prod/profile_images/c0a57554-46bf-4de3-8adb-55aeadcbf67b-prof.png",
+    "calories": 435,
+    "bmrCalories": 58,
+    "averageHR": 146,
+    "maxHR": 162,
+    "averageRunningCadenceInStepsPerMinute": 160.640625,
+    "maxRunningCadenceInStepsPerMinute": 176,
+    "steps": 5798,
+    "userRoles": [
+      "SCOPE_GOLF_API_READ",
+      "SCOPE_DI_OAUTH_2_DEVICE_REVOCATION_WRITE",
+      "SCOPE_DI_OAUTH_2_CREATE_DI_USER",
+      "SCOPE_ATP_READ",
+      "SCOPE_DIVE_API_WRITE",
+      "SCOPE_COMMUNITY_COURSE_ADMIN_READ",
+      "SCOPE_DIVE_API_READ",
+      "SCOPE_DT_ACTIVE_INTELLIGENCE_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_READ",
+      "SCOPE_CONNECT_WRITE",
+      "SCOPE_COMMUNITY_COURSE_WRITE",
+      "SCOPE_CONNECT_MCT_DAILY_LOG_READ",
+      "SCOPE_CONNECT_API_CREATE_UPDATE_USER",
+      "SCOPE_MESSAGE_GENERATION_READ",
+      "SCOPE_DI_OAUTH_2_CLIENT_REVOCATION_ADMIN",
+      "SCOPE_CONNECT_WEB_TEMPLATE_RENDER",
+      "SCOPE_ACTIVITY_DETECTION_READ",
+      "SCOPE_OMT_SUBSCRIPTION_ADMIN_READ",
+      "SCOPE_DI_OAUTH_2_MANAGED_STATUS_ADMIN_WRITE",
+      "SCOPE_CONNECT_NON_SOCIAL_SHARED_READ",
+      "SCOPE_CONNECT_READ",
+      "SCOPE_DI_OAUTH_2_PRERELEASE_PERMISSIONS_ADMIN_WRITE",
+      "SCOPE_DI_OAUTH_2_TOKEN_ADMIN",
+      "SCOPE_ATP_WRITE",
+      "ROLE_CONNECTUSER",
+      "ROLE_FITNESS_USER",
+      "ROLE_WELLNESS_USER",
+      "ROLE_GARMIN_USER"
+    ],
+    "privacy": {
+      "typeId": 1,
+      "typeKey": "public"
+    },
+    "userPro": false,
+    "hasVideo": false,
+    "timeZoneId": 148,
+    "beginTimestamp": 1779928683000,
+    "sportTypeId": 1,
+    "avgPower": 309,
+    "maxPower": 433,
+    "aerobicTrainingEffect": 3.0999999046325684,
+    "anaerobicTrainingEffect": 0,
+    "normPower": 311,
+    "avgVerticalOscillation": 8.09000015258789,
+    "avgGroundContactTime": 292.20001220703125,
+    "avgStrideLength": 83.7,
+    "vO2MaxValue": 41,
+    "avgVerticalRatio": 9.670000076293945,
+    "deviceId": 3602083184,
+    "minTemperature": 30,
+    "maxTemperature": 31,
+    "minElevation": 1580.5999755859375,
+    "maxElevation": 1611.199951171875,
+    "avgElevation": 1596.4387998655816,
+    "maxDoubleCadence": 176,
+    "summarizedDiveInfo": {
+      "summarizedDiveGases": []
+    },
+    "maxVerticalSpeed": 0.40002441406250006,
+    "manufacturer": "GARMIN",
+    "locationName": "Sabaneta",
+    "lapCount": 6,
+    "endLatitude": 6.15118034183979,
+    "endLongitude": -75.62142161652446,
+    "waterEstimated": 601,
+    "trainingEffectLabel": "AEROBIC_BASE",
+    "minActivityLapDuration": 5.38100004196167,
+    "aerobicTrainingEffectMessage": "IMPROVING_AEROBIC_BASE_8",
+    "anaerobicTrainingEffectMessage": "NO_ANAEROBIC_BENEFIT_0",
+    "splitSummaries": [
+      {
+        "noOfSplits": 1,
+        "totalAscent": 32,
+        "duration": 2165.381103515625,
+        "splitType": "INTERVAL_ACTIVE",
+        "numClimbSends": 0,
+        "maxElevationGain": 32,
+        "averageElevationGain": 32,
+        "maxDistance": 4856,
+        "distance": 4856.3798828125,
+        "averageSpeed": 2.243000030517578,
+        "maxSpeed": 2.994999885559082,
+        "numFalls": 0,
+        "elevationLoss": 26
+      },
+      {
+        "noOfSplits": 4,
+        "totalAscent": 32,
+        "duration": 2148.837890625,
+        "splitType": "RWD_RUN",
+        "numClimbSends": 0,
+        "maxElevationGain": 17,
+        "averageElevationGain": 8,
+        "maxDistance": 1643,
+        "distance": 4834.02001953125,
+        "averageSpeed": 2.25,
+        "maxSpeed": 2.994999885559082,
+        "numFalls": 0,
+        "elevationLoss": 26
+      },
+      {
+        "noOfSplits": 2,
+        "totalAscent": 0,
+        "duration": 4.000999927520752,
+        "splitType": "RWD_WALK",
+        "numClimbSends": 0,
+        "maxElevationGain": 0,
+        "averageElevationGain": 0,
+        "maxDistance": 8,
+        "distance": 8.600000381469727,
+        "averageSpeed": 2.1489999294281006,
+        "maxSpeed": 2.1549999713897705,
+        "numFalls": 0,
+        "elevationLoss": 0
+      },
+      {
+        "noOfSplits": 3,
+        "totalAscent": 0,
+        "duration": 12.522000312805176,
+        "splitType": "RWD_STAND",
+        "numClimbSends": 0,
+        "maxElevationGain": 0,
+        "averageElevationGain": 0,
+        "maxDistance": 5,
+        "distance": 13.760000228881836,
+        "averageSpeed": 1.0989999771118164,
+        "maxSpeed": 0,
+        "numFalls": 0,
+        "elevationLoss": 0
+      }
+    ],
+    "hasSplits": true,
+    "hasIntensityIntervals": false,
+    "avgGradeAdjustedSpeed": 2.253999948501587,
+    "differenceBodyBattery": -5,
+    "hasHeatMap": false,
+    "fastestSplit_1000": 429.2019958496094,
+    "fastestSplit_1609": 689.9860229492188,
+    "hrTimeInZone_1": 791.665,
+    "hrTimeInZone_2": 902.323,
+    "hrTimeInZone_3": 383.988,
+    "hrTimeInZone_4": 0,
+    "hrTimeInZone_5": 0,
+    "powerTimeInZone_1": 4,
+    "powerTimeInZone_2": 320.164,
+    "powerTimeInZone_3": 1337.363,
+    "powerTimeInZone_4": 450.989,
+    "powerTimeInZone_5": 28.999,
+    "endTimeGMT": "2026-05-28 01:15:07",
+    "qualifyingDive": false,
+    "activityUUID": "20672b41-a632-4219-9257-de2b50a7aad7",
+    "autoCalcCalories": false,
+    "elevationCorrected": false,
+    "atpActivity": false,
+    "favorite": false,
+    "decoDive": false,
+    "pr": false,
+    "purposeful": false,
+    "parent": false,
+    "manualActivity": false
+  },
+  {
     "activityId": 23026063058,
     "activityName": "Sabaneta - Base",
     "startTimeLocal": "2026-05-26 19:44:41",
@@ -201,11 +406,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22997579219,
@@ -409,11 +614,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22977557063,
@@ -616,11 +821,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22954674301,
@@ -824,11 +1029,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22942721169,
@@ -1032,11 +1237,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22914359468,
@@ -1240,11 +1445,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22895210227,
@@ -1493,11 +1698,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22873157849,
@@ -1700,11 +1905,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22861484346,
@@ -1907,11 +2112,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22833866872,
@@ -2115,11 +2320,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22821666114,
@@ -2322,11 +2527,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22803517154,
@@ -2529,11 +2734,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22791657079,
@@ -2736,11 +2941,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22751529134,
@@ -2943,11 +3148,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22731841728,
@@ -3195,11 +3400,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22719686266,
@@ -3402,11 +3607,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22708633647,
@@ -3639,11 +3844,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22696581405,
@@ -3846,11 +4051,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22666713780,
@@ -4054,11 +4259,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22647984713,
@@ -4260,11 +4465,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22637032772,
@@ -4452,11 +4657,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22625319788,
@@ -4639,11 +4844,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22625192892,
@@ -4846,11 +5051,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22583647451,
@@ -5054,11 +5259,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22564743602,
@@ -5246,11 +5451,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22553892975,
@@ -5423,11 +5628,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22541855013,
@@ -5630,11 +5835,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22529790556,
@@ -5837,11 +6042,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22499543870,
@@ -6044,11 +6249,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22482772716,
@@ -6251,11 +6456,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22472314710,
@@ -6458,11 +6663,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22460148640,
@@ -6665,11 +6870,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22446910657,
@@ -6872,11 +7077,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22404250448,
@@ -7080,11 +7285,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22395688838,
@@ -7257,11 +7462,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 22388229326,
@@ -7464,11 +7669,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21848098213,
@@ -7655,11 +7860,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21822811822,
@@ -7846,11 +8051,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21811988355,
@@ -8037,11 +8242,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21757179747,
@@ -8227,11 +8432,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21686081078,
@@ -8417,11 +8622,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21614265973,
@@ -8607,11 +8812,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21603188260,
@@ -8797,11 +9002,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21550755701,
@@ -8987,11 +9192,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21507228229,
@@ -9176,11 +9381,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21470496288,
@@ -9366,11 +9571,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21459750893,
@@ -9541,11 +9746,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21449456122,
@@ -9731,11 +9936,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21439120953,
@@ -9921,11 +10126,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21418992472,
@@ -10096,11 +10301,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 21032424782,
@@ -10286,11 +10491,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20995749236,
@@ -10476,11 +10681,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20976463016,
@@ -10666,11 +10871,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20968316250,
@@ -10856,11 +11061,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20918097315,
@@ -11046,11 +11251,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20908486878,
@@ -11236,11 +11441,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20898501732,
@@ -11426,11 +11631,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20887986329,
@@ -11616,11 +11821,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20880124110,
@@ -11806,11 +12011,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20712235454,
@@ -11982,11 +12187,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20695952595,
@@ -12161,11 +12366,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20692039696,
@@ -12337,11 +12542,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20685334253,
@@ -12532,11 +12737,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20461334562,
@@ -12662,11 +12867,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20310372060,
@@ -12872,11 +13077,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": true,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20262721169,
@@ -13063,11 +13268,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20200917050,
@@ -13253,11 +13458,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20190167737,
@@ -13490,11 +13695,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20130368754,
@@ -13728,11 +13933,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20115294168,
@@ -13965,11 +14170,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20079261206,
@@ -14155,11 +14360,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 20033120196,
@@ -14377,11 +14582,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19983369077,
@@ -14614,11 +14819,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19958453824,
@@ -14851,11 +15056,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19938483487,
@@ -15088,11 +15293,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": true,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19901365696,
@@ -15325,11 +15530,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19866605948,
@@ -15548,11 +15753,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19845344853,
@@ -15785,11 +15990,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19834118105,
@@ -16022,11 +16227,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19823426063,
@@ -16259,11 +16464,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19793392598,
@@ -16497,11 +16702,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19784791158,
@@ -16734,11 +16939,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": true,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19777223531,
@@ -16971,11 +17176,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19761693979,
@@ -17208,11 +17413,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19751067865,
@@ -17443,11 +17648,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19722130958,
@@ -17666,11 +17871,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": true,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19713896608,
@@ -17917,11 +18122,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19699130712,
@@ -18139,11 +18344,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19688967951,
@@ -18375,11 +18580,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19678363743,
@@ -18612,11 +18817,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19651817871,
@@ -18850,11 +19055,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19641266126,
@@ -19057,11 +19262,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19628854645,
@@ -19279,11 +19484,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19618983078,
@@ -19516,11 +19721,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19608928477,
@@ -19707,11 +19912,11 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19608928375,
@@ -19925,11 +20130,11 @@
     "elevationCorrected": false,
     "atpActivity": true,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   },
   {
     "activityId": 19580556135,
@@ -20116,10 +20321,10 @@
     "elevationCorrected": false,
     "atpActivity": false,
     "favorite": false,
-    "purposeful": false,
-    "manualActivity": false,
+    "decoDive": false,
     "pr": false,
+    "purposeful": false,
     "parent": false,
-    "decoDive": false
+    "manualActivity": false
   }
 ]
