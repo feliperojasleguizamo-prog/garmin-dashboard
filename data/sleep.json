@@ -2,7 +2,7 @@
   "dailySleepDTO": {
     "id": null,
     "userProfilePK": 134728532,
-    "calendarDate": "2026-07-14",
+    "calendarDate": "2026-07-15",
     "sleepTimeSeconds": null,
     "napTimeSeconds": null,
     "sleepWindowConfirmed": null,
@@ -21,24 +21,9 @@
     "remSleepSeconds": null,
     "awakeSleepSeconds": null,
     "deviceRemCapable": false,
-    "retro": false,
-    "sleepNeed": {
-      "userProfilePk": 134728532,
-      "calendarDate": "2026-07-14",
-      "deviceId": 3602083184,
-      "timestampGmt": "2026-07-13T14:27:04",
-      "baseline": 480,
-      "actual": 480,
-      "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
-      "trainingFeedback": "NO_CHANGE",
-      "sleepHistoryAdjustment": "NO_CHANGE",
-      "hrvAdjustment": "NO_CHANGE",
-      "napAdjustment": "NO_CHANGE",
-      "displayedForTheDay": true,
-      "preferredActivityTracker": true
-    }
+    "retro": false
   },
-  "sleepMovement": null,
+  "sleepMovement": [],
   "remSleepData": null,
-  "sleepLevels": null
+  "sleepLevels": []
 }
