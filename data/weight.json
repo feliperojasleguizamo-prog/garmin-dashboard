@@ -1,6 +1,6 @@
 {
   "startDate": "2025-01-01",
-  "endDate": "2026-07-22",
+  "endDate": "2026-07-23",
   "dateWeightList": [
     {
       "samplePk": 1782053015620,
@@ -17,7 +17,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1782053015613,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1777940715553,
@@ -34,7 +35,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1777940699005,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1777382333538,
@@ -51,7 +53,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1777333200000,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1777382279729,
@@ -68,7 +71,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1776727920000,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1776311863734,
@@ -85,7 +89,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1776123000000,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1775706831078,
@@ -102,7 +107,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1775519160000,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1775168124100,
@@ -119,7 +125,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1775168114007,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1760489747220,
@@ -136,7 +143,8 @@
       "metabolicAge": null,
       "sourceType": "MANUAL",
       "timestampGMT": 1760489733005,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     },
     {
       "samplePk": 1751067939173,
@@ -153,12 +161,13 @@
       "metabolicAge": null,
       "sourceType": "USER_SETTING",
       "timestampGMT": 1751067939153,
-      "weightDelta": null
+      "weightDelta": null,
+      "trend": null
     }
   ],
   "totalAverage": {
     "from": 1735689600000,
-    "until": 1784764799999,
+    "until": 1784851199999,
     "weight": 97044.33333333333,
     "bmi": null,
     "bodyFat": null,
@@ -167,6 +176,7 @@
     "muscleMass": null,
     "physiqueRating": null,
     "visceralFat": null,
-    "metabolicAge": null
+    "metabolicAge": null,
+    "trend": null
   }
 }
