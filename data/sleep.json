@@ -2,9 +2,9 @@
   "dailySleepDTO": {
     "id": null,
     "userProfilePK": 134728532,
-    "calendarDate": "2026-08-14",
+    "calendarDate": "2026-08-15",
     "sleepTimeSeconds": null,
-    "napTimeSeconds": null,
+    "napTimeSeconds": 960,
     "sleepWindowConfirmed": null,
     "sleepWindowConfirmationType": null,
     "sleepStartTimestampGMT": null,
@@ -22,21 +22,37 @@
     "awakeSleepSeconds": null,
     "deviceRemCapable": false,
     "retro": false,
-    "sleepNeed": {
+    "nextSleepNeed": {
       "userProfilePk": 134728532,
-      "calendarDate": "2026-08-14",
+      "calendarDate": "2026-08-16",
       "deviceId": 3602083184,
-      "timestampGmt": "2026-08-13T14:33:41",
+      "timestampGmt": "2026-08-15T19:12:47",
       "baseline": 480,
-      "actual": 530,
-      "feedback": "HIGHLY_INCREASED",
+      "actual": 480,
+      "feedback": "NO_CHANGE_NO_ADJUSTMENTS",
       "trainingFeedback": "NO_CHANGE",
-      "sleepHistoryAdjustment": "INCREASING",
-      "hrvAdjustment": "INCREASING",
+      "sleepHistoryAdjustment": "NO_DATA",
+      "hrvAdjustment": "NO_DATA",
       "napAdjustment": "NO_CHANGE",
-      "displayedForTheDay": true,
+      "displayedForTheDay": false,
       "preferredActivityTracker": true
-    }
+    },
+    "dailyNapDTOS": [
+      {
+        "userProfilePK": 134728532,
+        "deviceId": 3602083184,
+        "calendarDate": "2026-08-15",
+        "napTimeSec": 960,
+        "napStartTimestampGMT": "2026-08-15T18:55:34",
+        "napEndTimestampGMT": "2026-08-15T19:11:34",
+        "napFeedback": "IDEAL_TIMING_IDEAL_DURATION_LOW_NEED",
+        "napSource": 0,
+        "napStartTimeOffset": -300,
+        "napEndTimeOffset": -300,
+        "createTimestampGMT": null,
+        "updateTimestampGMT": null
+      }
+    ]
   },
   "sleepMovement": null,
   "remSleepData": null,
