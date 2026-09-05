@@ -1,6 +1,6 @@
 {
   "startDate": "2025-01-01",
-  "endDate": "2026-09-04",
+  "endDate": "2026-09-05",
   "dateWeightList": [
     {
       "samplePk": 1782053015620,
@@ -158,7 +158,7 @@
   ],
   "totalAverage": {
     "from": 1735689600000,
-    "until": 1788566399999,
+    "until": 1788652799999,
     "weight": 97044.33333333333,
     "bmi": null,
     "bodyFat": null,
